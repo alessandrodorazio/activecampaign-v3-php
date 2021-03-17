@@ -5,7 +5,7 @@
  * Time: 11:12
  */
 
-namespace Mediatoolkit\ActiveCampaign;
+namespace Tchury\ActiveCampaign;
 
 
 class Resource

@@ -1,13 +1,13 @@
 <?php
 
-namespace Mediatoolkit\ActiveCampaign\Deals;
+namespace Tchury\ActiveCampaign\Deals;
 
 
-use Mediatoolkit\ActiveCampaign\Resource;
+use Tchury\ActiveCampaign\Resource;
 
 /**
  * Class Deals
- * @package Mediatoolkit\ActiveCampaign\Deals
+ * @package Tchury\ActiveCampaign\Deals
  * @see https://developers.activecampaign.com/reference#deal
  */
 class Deals extends Resource

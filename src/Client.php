@@ -1,6 +1,6 @@
 <?php
 
-namespace Mediatoolkit\ActiveCampaign;
+namespace Tchury\ActiveCampaign;
 
 class Client
 {

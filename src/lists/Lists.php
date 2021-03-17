@@ -1,13 +1,13 @@
 <?php
 
-namespace Mediatoolkit\ActiveCampaign\Lists;
+namespace Tchury\ActiveCampaign\Lists;
 
 
-use Mediatoolkit\ActiveCampaign\Resource;
+use Tchury\ActiveCampaign\Resource;
 
 /**
  * Class Lists
- * @package Mediatoolkit\ActiveCampaign\Lists
+ * @package Tchury\ActiveCampaign\Lists
  * @see https://developers.activecampaign.com/reference#lists
  */
 class Lists extends Resource

@@ -1,9 +1,9 @@
 <?php
 
-namespace Mediatoolkit\Tests;
+namespace Tchury\Tests;
 
 
-use Mediatoolkit\ActiveCampaign\Client;
+use Tchury\ActiveCampaign\Client;
 
 class ClientTest extends ResourceTestCase
 {

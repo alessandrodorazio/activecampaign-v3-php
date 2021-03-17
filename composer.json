@@ -1,5 +1,5 @@
 {
-  "name": "mediatoolkit/activecampaign-v3-php",
+  "name": "tchury/activecampaign-v3-php",
   "description": "PHP Wrapper for ActiveCampaign",
   "require": {
     "guzzlehttp/guzzle": "~6.3"
@@ -10,18 +10,18 @@
   "license": "MIT",
   "authors": [
     {
-      "name": "Mediatoolkit",
-      "email": "info@mediatoolkit.com"
+      "name": "Alessandro DOrazio",
+      "email": "me@alessandrodorazio.it"
     }
   ],
   "autoload": {
     "psr-4": {
-      "Mediatoolkit\\ActiveCampaign\\": "src/"
+      "Tchury\\ActiveCampaign\\": "src/"
     }
   },
   "autoload-dev": {
     "psr-4": {
-      "Mediatoolkit\\Tests\\": "tests/"
+      "Tchury\\Tests\\": "tests/"
     }
   }
 }

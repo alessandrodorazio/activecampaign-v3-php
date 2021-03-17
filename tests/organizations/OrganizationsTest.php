@@ -5,11 +5,11 @@
  * Time: 15:18
  */
 
-namespace Mediatoolkit\Tests\Organizations;
+namespace Tchury\Tests\Organizations;
 
 
-use Mediatoolkit\ActiveCampaign\Organizations\Organizations;
-use Mediatoolkit\Tests\ResourceTestCase;
+use Tchury\ActiveCampaign\Organizations\Organizations;
+use Tchury\Tests\ResourceTestCase;
 
 class OrganizationsTest extends ResourceTestCase
 {

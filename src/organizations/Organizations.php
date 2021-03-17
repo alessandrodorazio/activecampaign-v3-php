@@ -1,12 +1,12 @@
 <?php
 
-namespace Mediatoolkit\ActiveCampaign\Organizations;
+namespace Tchury\ActiveCampaign\Organizations;
 
-use Mediatoolkit\ActiveCampaign\Resource;
+use Tchury\ActiveCampaign\Resource;
 
 /**
  * Class Organizations
- * @package Mediatoolkit\ActiveCampaign\Organizations
+ * @package Tchury\ActiveCampaign\Organizations
  * @see https://developers.activecampaign.com/reference#organizations
  */
 class Organizations extends Resource

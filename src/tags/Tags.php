@@ -1,12 +1,12 @@
 <?php
 
-namespace Mediatoolkit\ActiveCampaign\Tags;
+namespace Tchury\ActiveCampaign\Tags;
 
-use Mediatoolkit\ActiveCampaign\Resource;
+use Tchury\ActiveCampaign\Resource;
 
 /**
  * Class Tags
- * @package Mediatoolkit\ActiveCampaign\Tags
+ * @package Tchury\ActiveCampaign\Tags
  * @see https://developers.activecampaign.com/reference#tags
  */
 class Tags extends Resource

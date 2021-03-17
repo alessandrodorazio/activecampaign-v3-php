@@ -1,12 +1,12 @@
 <?php
 
-namespace Mediatoolkit\ActiveCampaign\Contacts;
+namespace Tchury\ActiveCampaign\Contacts;
 
-use Mediatoolkit\ActiveCampaign\Resource;
+use Tchury\ActiveCampaign\Resource;
 
 /**
  * Class Contacts
- * @package Mediatoolkit\ActiveCampaign\Contacts
+ * @package Tchury\ActiveCampaign\Contacts
  * @see https://developers.activecampaign.com/reference#contact
  */
 class Contacts extends Resource

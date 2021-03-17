@@ -1,12 +1,12 @@
 <?php
 
-namespace Mediatoolkit\ActiveCampaign\Tracking;
+namespace Tchury\ActiveCampaign\Tracking;
 
-use Mediatoolkit\ActiveCampaign\Resource;
+use Tchury\ActiveCampaign\Resource;
 
 /**
  * Class EventTracking
- * @package Mediatoolkit\ActiveCampaign\Tracking
+ * @package Tchury\ActiveCampaign\Tracking
  * @see https://developers.activecampaign.com/reference#event-tracking
  */
 class EventTracking extends Resource

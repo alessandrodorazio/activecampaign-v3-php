@@ -1,9 +1,9 @@
 <?php
 
-namespace Mediatoolkit\Tests\Contacts;
+namespace Tchury\Tests\Contacts;
 
-use Mediatoolkit\ActiveCampaign\Contacts\Contacts;
-use Mediatoolkit\Tests\ResourceTestCase;
+use Tchury\ActiveCampaign\Contacts\Contacts;
+use Tchury\Tests\ResourceTestCase;
 
 class ContactsTest extends ResourceTestCase
 {

@@ -1,12 +1,12 @@
 <?php
 
-namespace Mediatoolkit\ActiveCampaign\Tracking;
+namespace Tchury\ActiveCampaign\Tracking;
 
-use Mediatoolkit\ActiveCampaign\Resource;
+use Tchury\ActiveCampaign\Resource;
 
 /**
  * Class SiteTracking
- * @package Mediatoolkit\ActiveCampaign\Tracking
+ * @package Tchury\ActiveCampaign\Tracking
  * @see https://developers.activecampaign.com/reference#site-tracking
  */
 class SiteTracking extends Resource
