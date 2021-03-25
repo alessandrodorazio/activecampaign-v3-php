@@ -165,6 +165,14 @@ class Contacts extends Resource
         return $req->getBody()->getContents();
     }
 
+    public function listContactTags(int $contactId) {
+        $req = $this->client
+            ->getClient()
+            ->get('/api/3/contacts/' . $contactId . '/contactTags');
+
+        return $req->getBody()->getContents();
+    }
+
     /**
      * Remove a tag from a contact
      * @see https://developers.activecampaign.com/reference#delete-contact-tag
