@@ -11,6 +11,17 @@ use Tchury\ActiveCampaign\Resource;
  */
 class Tags extends Resource
 {
+    public function create(array $tag) {
+        $req = $this->client
+            ->getClient()
+            ->post('/api/3/tags', [
+                'json' => [
+                    'tag' => $tag
+                ]
+            ]);
+
+        return $req->getBody()->getContents();
+    }
 
     /**
      * List all tags
