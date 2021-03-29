@@ -11,7 +11,6 @@ use Tchury\ActiveCampaign\Resource;
  */
 class Contacts extends Resource
 {
-
     /**
      * Create a contact
      * @see https://developers.activecampaign.com/reference#create-contact
