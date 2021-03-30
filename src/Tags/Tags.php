@@ -11,6 +11,10 @@ use Tchury\ActiveCampaign\Resource;
  */
 class Tags extends Resource
 {
+    /**
+     * @param array $tag
+     * @return string
+     */
     public function create(array $tag) {
         $req = $this->client
             ->getClient()

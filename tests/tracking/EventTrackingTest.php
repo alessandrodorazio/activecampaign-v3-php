@@ -11,6 +11,10 @@ namespace Tchury\Tests\Tracking;
 use Tchury\ActiveCampaign\Tracking\EventTracking;
 use Tchury\Tests\ResourceTestCase;
 
+/**
+ * Class EventTrackingTest
+ * @package Tchury\Tests\Tracking
+ */
 class EventTrackingTest extends ResourceTestCase
 {
 

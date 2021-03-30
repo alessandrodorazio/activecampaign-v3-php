@@ -2,6 +2,10 @@
 
 namespace Tchury\ActiveCampaign;
 
+/**
+ * Class Client
+ * @package Tchury\ActiveCampaign
+ */
 class Client
 {
 
@@ -51,6 +55,13 @@ class Client
      */
     private $event_tracking_client;
 
+    /**
+     * Client constructor.
+     * @param $api_url
+     * @param $api_token
+     * @param null $event_tracking_actid
+     * @param null $event_tracking_key
+     */
     public function __construct($api_url, $api_token, $event_tracking_actid = null, $event_tracking_key = null)
     {
         $this->api_url = $api_url;

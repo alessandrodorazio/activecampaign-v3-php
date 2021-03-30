@@ -8,6 +8,10 @@
 namespace Tchury\ActiveCampaign;
 
 
+/**
+ * Class Resource
+ * @package Tchury\ActiveCampaign
+ */
 class Resource
 {
 

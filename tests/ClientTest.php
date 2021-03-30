@@ -5,6 +5,10 @@ namespace Tchury\Tests;
 
 use Tchury\ActiveCampaign\Client;
 
+/**
+ * Class ClientTest
+ * @package Tchury\Tests
+ */
 class ClientTest extends ResourceTestCase
 {
 

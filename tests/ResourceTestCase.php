@@ -6,6 +6,10 @@ namespace Tchury\Tests;
 use Tchury\ActiveCampaign\Client;
 use PHPUnit\Framework\TestCase;
 
+/**
+ * Class ResourceTestCase
+ * @package Tchury\Tests
+ */
 abstract class ResourceTestCase extends TestCase
 {
 

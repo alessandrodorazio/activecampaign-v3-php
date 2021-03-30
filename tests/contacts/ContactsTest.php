@@ -5,6 +5,10 @@ namespace Tchury\Tests\Contacts;
 use Tchury\ActiveCampaign\Contacts\Contacts;
 use Tchury\Tests\ResourceTestCase;
 
+/**
+ * Class ContactsTest
+ * @package Tchury\Tests\Contacts
+ */
 class ContactsTest extends ResourceTestCase
 {
 

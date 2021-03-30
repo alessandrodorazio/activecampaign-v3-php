@@ -164,6 +164,10 @@ class Contacts extends Resource
         return $req->getBody()->getContents();
     }
 
+    /**
+     * @param int $contactId
+     * @return string
+     */
     public function listContactTags(int $contactId) {
         $req = $this->client
             ->getClient()
@@ -197,7 +201,7 @@ class Contacts extends Resource
      * @param int $offset
      * @return string
      */
-    public function listAll(array $query_params = [], int $limit = 20, int $offset = 0)
+    public function listAll(array $query_params = [], $limit = 20, $offset = 0)
     {
         $query_params = array_merge($query_params, [
             'limit' => $limit,

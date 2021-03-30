@@ -11,6 +11,10 @@ namespace Tchury\Tests\Organizations;
 use Tchury\ActiveCampaign\Organizations\Organizations;
 use Tchury\Tests\ResourceTestCase;
 
+/**
+ * Class OrganizationsTest
+ * @package Tchury\Tests\Organizations
+ */
 class OrganizationsTest extends ResourceTestCase
 {
 

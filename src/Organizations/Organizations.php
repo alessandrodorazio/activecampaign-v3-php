@@ -105,6 +105,12 @@ class Organizations extends Resource
         return $req->getBody()->getContents();
     }
 
+    /**
+     * @param array $query_params
+     * @param int $limit
+     * @param int $offset
+     * @return string
+     */
     public function listAll(array $query_params = [], $limit = 20, $offset = 0)
     {
         $query_params = array_merge($query_params, [
